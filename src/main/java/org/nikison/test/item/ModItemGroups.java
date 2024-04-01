@@ -17,6 +17,8 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.ZET)).entries((displayContext, entries) -> {
                         entries.add(ModItems.NIGGA);
                         entries.add(ModItems.ZET);
+                        entries.add(ModItems.AMBER);
+                        entries.add(ModItems.RAW_AMBER);
 
                     }).build());
 
@@ -26,6 +28,9 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModBlocks.SHIT_BLOCK)).entries((displayContext, entries) -> {
                         entries.add(ModBlocks.SHIT_BLOCK);
                         entries.add(ModBlocks.CUM_BLOCK);
+                        entries.add(ModBlocks.AMBER_BLOCK);
+                        entries.add(ModBlocks.AMBER_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_AMBER_ORE);
 
                     }).build());
 

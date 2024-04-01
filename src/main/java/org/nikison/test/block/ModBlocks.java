@@ -19,6 +19,19 @@ public class ModBlocks {
     public static final Block CUM_BLOCK = registerBlock("cum_block",
             new Block(FabricBlockSettings.copyOf(Blocks.HONEY_BLOCK)));
 
+    public static final Block AMBER_ORE = registerBlock("amber_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE).strength(2.0F, 2.0F)));
+
+    public static final Block AMBER_BLOCK = registerBlock("amber_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(2.5F, 2.5F)));
+
+    public static final Block DEEPSLATE_AMBER_ORE = registerBlock("deepslate_amber_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_IRON_ORE).strength(4.0F, 2.0F)));
+
+
+
+
+
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(Test.MOD_ID, name), block);

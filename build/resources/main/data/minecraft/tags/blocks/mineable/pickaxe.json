@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "test:amber_block",
+    "test:amber_ore",
+    "test:deepslate_amber_ore"
+  ]
+}

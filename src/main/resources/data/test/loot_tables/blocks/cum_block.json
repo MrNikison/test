@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "tutorialmod:cum_block"
+          "name": "test:cum_block"
         }
       ],
       "rolls": 1.0

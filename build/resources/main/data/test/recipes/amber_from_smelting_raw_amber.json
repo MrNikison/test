@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "amber",
+  "ingredient": {
+    "item": "test:raw_amber"
+  },
+  "result": "test:amber"
+}

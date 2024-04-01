@@ -17,19 +17,22 @@ public class ModItems {
     public static final Item ZET = registerItem("zet", new Item(new FabricItemSettings()));
     public static final Item SPERM = registerItem("sperm", new Item(new FabricItemSettings()));
 
-    private static void addItemToFoodItemGroup(FabricItemGroupEntries entries){
-        entries.add(NIGGA);
-        entries.add(ZET);
-        entries.add(SPERM);
-    }
+    public static final Item AMBER = registerItem("amber", new Item(new FabricItemSettings()));
+    public static final Item RAW_AMBER = registerItem("raw_amber", new Item(new FabricItemSettings()));
+
+//    private static void addItemToFoodItemGroup(FabricItemGroupEntries entries){
+//        entries.add(NIGGA);
+//        entries.add(ZET);
+//        entries.add(SPERM);
+//    }
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, new Identifier(Test.MOD_ID, name), item);
     }
 
     public static void registerModItem(){
-//        Test.LOGGER.info("Registering Mod Items for " + Test.MOD_ID);
+        Test.LOGGER.info("Registering Mod Items for " + Test.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(ModItems::addItemToFoodItemGroup);
+//        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(ModItems::addItemToFoodItemGroup);
     }
 }

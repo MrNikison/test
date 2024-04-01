@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "amber",
+  "ingredient": {
+    "item": "test:deepslate_amber_ore"
+  },
+  "result": "test:amber"
+}
