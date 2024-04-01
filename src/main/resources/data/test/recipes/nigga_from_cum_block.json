@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item":  "test:cum_block"
+    },
+    {
+      "item":  "test:nigga"
+    }
+  ],
+  "result": {
+    "item": "test:nigga",
+    "count": 2
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "test",
+  "version": "${version}",
+  "name": "test",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/NikitaPon/test"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/test/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.nikison.test.client.TestClient"
+    ],
+    "main": [
+      "org.nikison.test.Test"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
